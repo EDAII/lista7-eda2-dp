@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BAB9000ECA1DF9525E0A15D715B307 /* RandomUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097E1FDB6B3192286993E819222DB66 /* RandomUInt64.swift */; };
+		0E595594925920B81CBDC1EF1F737727 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F44F897B051B339495E2BFE7BD477E /* Words and Bits.swift */; };
+		1393314FA30ED036A4876EED12EF15DF /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CA326C79E792769089294740F8AC9 /* BigInt.swift */; };
+		1418FE8C38CFB0A63618CB505778FF1A /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863DD8FDEC7278400287480D92ED5D6 /* String Conversion.swift */; };
+		1EE14F44BE6D7C6D015982EBCB62366B /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5261C5A4A7A920F651C12217BA4C7C6 /* Square Root.swift */; };
+		2A8F6944A9B01C4D77F755677E3B50CD /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBC39C8FEAEA1BF16B56E21B3E5B87 /* Exponentiation.swift */; };
+		2B4AEEF5291AF4C54375103E51B33EED /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE7641E32E005C9AB1FAF739E7FEE1 /* Strideable.swift */; };
+		37741FB620689069751B06889B7C7143 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35435439279064B991EE9E7AA10A0182 /* Comparable.swift */; };
+		39CDE4B10C60D85F37F77C939C51E074 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE598777D32ECFB69524B96816F36D21 /* Shifts.swift */; };
+		42911B8E04109940D27D03B76FDB71DA /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C46D900B07E164B428146D32624C29 /* Integer Conversion.swift */; };
+		4A0CA34613F574CE62FF542083B495BF /* Pods-fibonacci-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3468EACE622D8D67A46A7DA06A745 /* Pods-fibonacci-dummy.m */; };
+		4CFF75EF09263579007C95CD2C296463 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C05358EB4B240F75E5CB50C96FEBC7B /* Subtraction.swift */; };
+		4F6ED8ADD7B24315D4F8D18C227D3ACD /* Primitive Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83118DBFDDED72C475B7E831026DB1 /* Primitive Types.swift */; };
+		6EBEEEDAACA227734E95EA5211665100 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BBF0A569BFF9E6DD2E473E5B476BE /* GCD.swift */; };
+		70C753C56B4C246E2B038E4F94BF0BBF /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3BBC771F03B186E8D2AD5BFC65EDC /* Codable.swift */; };
+		718236F77969D41EA45AE28A7EF14E52 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A295A95F70CEFA1E272E04312392D /* Hashable.swift */; };
+		725F051AD73F0E9FFAFA953EB8C70852 /* Pods-fibonacci-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4839F79C6CA7CB21D50CEE89862B2335 /* Pods-fibonacci-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76577D0616D1280BF37FA6DB670AD771 /* SipHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD47386528AA3EB3A8A6A3AA52CAC65 /* SipHash-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8606AA654F3D24B407E7274A9BB3995F /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94745529F824EF59F6BD69A2CF056B2A /* Division.swift */; };
+		9985C1DF20C3A844133CC24F260232A6 /* SipHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E08FB9EF67C99B18052AED998632C0 /* SipHashable.swift */; };
+		A2282701DE9BC91494A2065F23824272 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA64BAF574B71EA8FCB5F5420E4B5A74 /* Random.swift */; };
+		A3990AC532A16D984A30B92171E19633 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02402FD657D523536F893F72287E6740 /* Addition.swift */; };
+		AA30153EC052C2F6DC67B9E50E451A6C /* SipHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14A89615E026F8BF9C68D6E2F4DDED4 /* SipHash-dummy.m */; };
+		B4F142FE09D136C9E623D5229FF3F0D5 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA78FB216BFF50A3B7ACBB11F280A06E /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9D179880E2C5A583513BF6086375292 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE0F5D4243ACAA351B4E216CD9CB47 /* BigUInt.swift */; };
+		CAF7F95BAAA850711BA9ABB88C4DBE58 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485AE6690947AC645161379F02211D /* Data Conversion.swift */; };
+		CF3EE764A7A7F7F57EB8610C7E684B04 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70724C5EA389C3924147B7F6C7F53F /* Multiplication.swift */; };
+		CFCEF00E9F843C0E9885D25D3FE776AD /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C18769ABF56B3B9AF91CF12422A2AFB /* BigInt-dummy.m */; };
+		D42866E9D1CC9FAA8B4D290D9021ADED /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556126BB870D0E26BD8692A9872C4355 /* Floating Point Conversion.swift */; };
+		DCD11459A6DD0C7757AD81AB42D7ADAC /* SipHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3843F2F22314B3904D1502AEAC2EC0BB /* SipHasher.swift */; };
+		E98669BD82B8EF36AA49932E9A1C5559 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25329AA2DBA8CAFDFB66E194D0F00DA /* Bitwise Ops.swift */; };
+		F78C1DE8D506C812DCD441568DD25248 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B20BCBD08A8BB338D92E855E91DBA13 /* Prime Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36A8B274F50442AE2C466F7B8C8A2E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA114BE2D9D1BCDA6E1013C3301492A8;
+			remoteInfo = SipHash;
+		};
+		D47C44BA2463006C8487D2CD82019A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA114BE2D9D1BCDA6E1013C3301492A8;
+			remoteInfo = SipHash;
+		};
+		D47CE35B9621E3803D7B7A2069BD84BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23A9C77578E46AEB069BEF36B9B5ADA6;
+			remoteInfo = BigInt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0097E1FDB6B3192286993E819222DB66 /* RandomUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomUInt64.swift; path = SipHash/RandomUInt64.swift; sourceTree = "<group>"; };
+		02402FD657D523536F893F72287E6740 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = sources/Addition.swift; sourceTree = "<group>"; };
+		03C5258B761F59F20BAC12FC3F40F710 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
+		11F44F897B051B339495E2BFE7BD477E /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "sources/Words and Bits.swift"; sourceTree = "<group>"; };
+		18743924F0A5B34EF3ACE343F28AAF17 /* Pods-fibonacci-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fibonacci-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AEE4A6160F2616DE0856766C9B95448 /* Pods-fibonacci-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fibonacci-resources.sh"; sourceTree = "<group>"; };
+		2D70724C5EA389C3924147B7F6C7F53F /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = sources/Multiplication.swift; sourceTree = "<group>"; };
+		2DAE0F5D4243ACAA351B4E216CD9CB47 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = sources/BigUInt.swift; sourceTree = "<group>"; };
+		2ED3BBC771F03B186E8D2AD5BFC65EDC /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = sources/Codable.swift; sourceTree = "<group>"; };
+		35435439279064B991EE9E7AA10A0182 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = sources/Comparable.swift; sourceTree = "<group>"; };
+		3843F2F22314B3904D1502AEAC2EC0BB /* SipHasher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHasher.swift; path = SipHash/SipHasher.swift; sourceTree = "<group>"; };
+		3B2CA326C79E792769089294740F8AC9 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = sources/BigInt.swift; sourceTree = "<group>"; };
+		3C18769ABF56B3B9AF91CF12422A2AFB /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		4839F79C6CA7CB21D50CEE89862B2335 /* Pods-fibonacci-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fibonacci-umbrella.h"; sourceTree = "<group>"; };
+		4D17CA529C0AE2E1C0AB8D0296FB3763 /* SipHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SipHash.xcconfig; sourceTree = "<group>"; };
+		512FE22C2D36226FD528CA348F14455C /* libBigInt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBigInt.a; path = libBigInt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		556126BB870D0E26BD8692A9872C4355 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		5B20BCBD08A8BB338D92E855E91DBA13 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "sources/Prime Test.swift"; sourceTree = "<group>"; };
+		5B83118DBFDDED72C475B7E831026DB1 /* Primitive Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Primitive Types.swift"; path = "SipHash/Primitive Types.swift"; sourceTree = "<group>"; };
+		5C631303208BDF71DBDA20D9CE55622F /* BigInt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.xcconfig; sourceTree = "<group>"; };
+		604BBF0A569BFF9E6DD2E473E5B476BE /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = sources/GCD.swift; sourceTree = "<group>"; };
+		699A295A95F70CEFA1E272E04312392D /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = sources/Hashable.swift; sourceTree = "<group>"; };
+		6C05358EB4B240F75E5CB50C96FEBC7B /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = sources/Subtraction.swift; sourceTree = "<group>"; };
+		74C5E3D7FAE353D6CC74B5C822316129 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = BigInt.modulemap; path = ../../Headers/Public/BigInt/BigInt.modulemap; sourceTree = "<group>"; };
+		75874C51DED680E47E7BFA75E7B0E66C /* Pods-fibonacci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fibonacci.release.xcconfig"; sourceTree = "<group>"; };
+		775FF2E0AFA77EB9BCFE3BCC3C04F128 /* SipHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SipHash.modulemap; path = ../../Headers/Public/SipHash/SipHash.modulemap; sourceTree = "<group>"; };
+		838232D05A6EF03E5EE0C7DFF0F9BA84 /* libSipHash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSipHash.a; path = libSipHash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FBC39C8FEAEA1BF16B56E21B3E5B87 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = sources/Exponentiation.swift; sourceTree = "<group>"; };
+		882DFCE89D08A7DA1A3CC49EC726527D /* Pods-fibonacci-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fibonacci-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88CDD0AE3B612A9DAB7AC3D4E6C73D89 /* Pods-fibonacci-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fibonacci-frameworks.sh"; sourceTree = "<group>"; };
+		8F6D666F778AB36D717261DC690AA130 /* SipHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94745529F824EF59F6BD69A2CF056B2A /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = sources/Division.swift; sourceTree = "<group>"; };
+		9DEE7641E32E005C9AB1FAF739E7FEE1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = sources/Strideable.swift; sourceTree = "<group>"; };
+		A1485AE6690947AC645161379F02211D /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "sources/Data Conversion.swift"; sourceTree = "<group>"; };
+		A14A89615E026F8BF9C68D6E2F4DDED4 /* SipHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SipHash-dummy.m"; sourceTree = "<group>"; };
+		A2C46D900B07E164B428146D32624C29 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "sources/Integer Conversion.swift"; sourceTree = "<group>"; };
+		B01CCE7134E155FBD3EFFD01536F1056 /* Pods-fibonacci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fibonacci.debug.xcconfig"; sourceTree = "<group>"; };
+		B25329AA2DBA8CAFDFB66E194D0F00DA /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
+		BCD47386528AA3EB3A8A6A3AA52CAC65 /* SipHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SipHash-umbrella.h"; path = "../../Headers/Public/SipHash/SipHash-umbrella.h"; sourceTree = "<group>"; };
+		C6AD5D7475EF5A28B6DEA59C8E0B216E /* Pods-fibonacci.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fibonacci.modulemap"; sourceTree = "<group>"; };
+		CA78FB216BFF50A3B7ACBB11F280A06E /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BigInt-umbrella.h"; path = "../../Headers/Public/BigInt/BigInt-umbrella.h"; sourceTree = "<group>"; };
+		CF1DCB8BAABFB7E0E83409B5B26CA3DF /* libPods-fibonacci.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-fibonacci.a"; path = "libPods-fibonacci.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B3468EACE622D8D67A46A7DA06A745 /* Pods-fibonacci-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fibonacci-dummy.m"; sourceTree = "<group>"; };
+		DA64BAF574B71EA8FCB5F5420E4B5A74 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = sources/Random.swift; sourceTree = "<group>"; };
+		E0E08FB9EF67C99B18052AED998632C0 /* SipHashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHashable.swift; path = SipHash/SipHashable.swift; sourceTree = "<group>"; };
+		E5261C5A4A7A920F651C12217BA4C7C6 /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "sources/Square Root.swift"; sourceTree = "<group>"; };
+		F863DD8FDEC7278400287480D92ED5D6 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "sources/String Conversion.swift"; sourceTree = "<group>"; };
+		FE598777D32ECFB69524B96816F36D21 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = sources/Shifts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FA9C90304F8596C9EE0647F7C9E1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325A85FC0CD5BCF38ADE42EE7531C2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3700253187746B99F2C5DAAD4A1D5424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001CDDABFA86EB95BEF0976F84F0AE3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4291B9B71E266C9E40FF72E89F607F1D /* Pods-fibonacci */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		01BA1592789024866E749A7FEBE8661A /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				02402FD657D523536F893F72287E6740 /* Addition.swift */,
+				3B2CA326C79E792769089294740F8AC9 /* BigInt.swift */,
+				2DAE0F5D4243ACAA351B4E216CD9CB47 /* BigUInt.swift */,
+				B25329AA2DBA8CAFDFB66E194D0F00DA /* Bitwise Ops.swift */,
+				2ED3BBC771F03B186E8D2AD5BFC65EDC /* Codable.swift */,
+				35435439279064B991EE9E7AA10A0182 /* Comparable.swift */,
+				A1485AE6690947AC645161379F02211D /* Data Conversion.swift */,
+				94745529F824EF59F6BD69A2CF056B2A /* Division.swift */,
+				87FBC39C8FEAEA1BF16B56E21B3E5B87 /* Exponentiation.swift */,
+				556126BB870D0E26BD8692A9872C4355 /* Floating Point Conversion.swift */,
+				604BBF0A569BFF9E6DD2E473E5B476BE /* GCD.swift */,
+				699A295A95F70CEFA1E272E04312392D /* Hashable.swift */,
+				A2C46D900B07E164B428146D32624C29 /* Integer Conversion.swift */,
+				2D70724C5EA389C3924147B7F6C7F53F /* Multiplication.swift */,
+				5B20BCBD08A8BB338D92E855E91DBA13 /* Prime Test.swift */,
+				DA64BAF574B71EA8FCB5F5420E4B5A74 /* Random.swift */,
+				FE598777D32ECFB69524B96816F36D21 /* Shifts.swift */,
+				E5261C5A4A7A920F651C12217BA4C7C6 /* Square Root.swift */,
+				9DEE7641E32E005C9AB1FAF739E7FEE1 /* Strideable.swift */,
+				F863DD8FDEC7278400287480D92ED5D6 /* String Conversion.swift */,
+				6C05358EB4B240F75E5CB50C96FEBC7B /* Subtraction.swift */,
+				11F44F897B051B339495E2BFE7BD477E /* Words and Bits.swift */,
+				CEC9EA548CCF69535F3CD1752E403EF4 /* Support Files */,
+			);
+			name = BigInt;
+			path = BigInt;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FFF253EFF1F6FA64AD4E73698ABFA7C /* SipHash */ = {
+			isa = PBXGroup;
+			children = (
+				5B83118DBFDDED72C475B7E831026DB1 /* Primitive Types.swift */,
+				0097E1FDB6B3192286993E819222DB66 /* RandomUInt64.swift */,
+				E0E08FB9EF67C99B18052AED998632C0 /* SipHashable.swift */,
+				3843F2F22314B3904D1502AEAC2EC0BB /* SipHasher.swift */,
+				E13BFE239C691B78F3F470B267D4DBB9 /* Support Files */,
+			);
+			name = SipHash;
+			path = SipHash;
+			sourceTree = "<group>";
+		};
+		4291B9B71E266C9E40FF72E89F607F1D /* Pods-fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD5D7475EF5A28B6DEA59C8E0B216E /* Pods-fibonacci.modulemap */,
+				882DFCE89D08A7DA1A3CC49EC726527D /* Pods-fibonacci-acknowledgements.markdown */,
+				18743924F0A5B34EF3ACE343F28AAF17 /* Pods-fibonacci-acknowledgements.plist */,
+				D4B3468EACE622D8D67A46A7DA06A745 /* Pods-fibonacci-dummy.m */,
+				88CDD0AE3B612A9DAB7AC3D4E6C73D89 /* Pods-fibonacci-frameworks.sh */,
+				2AEE4A6160F2616DE0856766C9B95448 /* Pods-fibonacci-resources.sh */,
+				4839F79C6CA7CB21D50CEE89862B2335 /* Pods-fibonacci-umbrella.h */,
+				B01CCE7134E155FBD3EFFD01536F1056 /* Pods-fibonacci.debug.xcconfig */,
+				75874C51DED680E47E7BFA75E7B0E66C /* Pods-fibonacci.release.xcconfig */,
+			);
+			name = "Pods-fibonacci";
+			path = "Target Support Files/Pods-fibonacci";
+			sourceTree = "<group>";
+		};
+		4E95A7CDD815F373755F553D7E9772DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512FE22C2D36226FD528CA348F14455C /* libBigInt.a */,
+				CF1DCB8BAABFB7E0E83409B5B26CA3DF /* libPods-fibonacci.a */,
+				838232D05A6EF03E5EE0C7DFF0F9BA84 /* libSipHash.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				FF2F0FDAACDEBF61E4C8D82549A4D29B /* Pods */,
+				4E95A7CDD815F373755F553D7E9772DA /* Products */,
+				001CDDABFA86EB95BEF0976F84F0AE3A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC9EA548CCF69535F3CD1752E403EF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C5E3D7FAE353D6CC74B5C822316129 /* BigInt.modulemap */,
+				5C631303208BDF71DBDA20D9CE55622F /* BigInt.xcconfig */,
+				3C18769ABF56B3B9AF91CF12422A2AFB /* BigInt-dummy.m */,
+				03C5258B761F59F20BAC12FC3F40F710 /* BigInt-prefix.pch */,
+				CA78FB216BFF50A3B7ACBB11F280A06E /* BigInt-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BigInt";
+			sourceTree = "<group>";
+		};
+		E13BFE239C691B78F3F470B267D4DBB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				775FF2E0AFA77EB9BCFE3BCC3C04F128 /* SipHash.modulemap */,
+				4D17CA529C0AE2E1C0AB8D0296FB3763 /* SipHash.xcconfig */,
+				A14A89615E026F8BF9C68D6E2F4DDED4 /* SipHash-dummy.m */,
+				8F6D666F778AB36D717261DC690AA130 /* SipHash-prefix.pch */,
+				BCD47386528AA3EB3A8A6A3AA52CAC65 /* SipHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SipHash";
+			sourceTree = "<group>";
+		};
+		FF2F0FDAACDEBF61E4C8D82549A4D29B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01BA1592789024866E749A7FEBE8661A /* BigInt */,
+				0FFF253EFF1F6FA64AD4E73698ABFA7C /* SipHash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32E1080DE8854A4FBB0EE7311AAB1CCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725F051AD73F0E9FFAFA953EB8C70852 /* Pods-fibonacci-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BDB29046A9B48DC12B231093E04B12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F142FE09D136C9E623D5229FF3F0D5 /* BigInt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CE674D2E1AC70E92827237A011E09B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76577D0616D1280BF37FA6DB670AD771 /* SipHash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23A9C77578E46AEB069BEF36B9B5ADA6 /* BigInt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F0F5224D2CB877BA3BE60F8BC9AF96 /* Build configuration list for PBXNativeTarget "BigInt" */;
+			buildPhases = (
+				46BDB29046A9B48DC12B231093E04B12 /* Headers */,
+				E2D6BCD5E5A99E5CAB3F3FBB1D6EC36E /* Sources */,
+				21FA9C90304F8596C9EE0647F7C9E1EE /* Frameworks */,
+				A3482DBFA9CE4039AA1605DA46D15EAB /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2602660D03EAE2BE41324DCD70D6B7C9 /* PBXTargetDependency */,
+			);
+			name = BigInt;
+			productName = BigInt;
+			productReference = 512FE22C2D36226FD528CA348F14455C /* libBigInt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81D3FF1A887147C4D5AE7C409FEE8D05 /* Pods-fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086F8A3C201548AAE5089C4E64BD324C /* Build configuration list for PBXNativeTarget "Pods-fibonacci" */;
+			buildPhases = (
+				32E1080DE8854A4FBB0EE7311AAB1CCD /* Headers */,
+				DF635F69E783E2753E5BE75591AB3C75 /* Sources */,
+				3700253187746B99F2C5DAAD4A1D5424 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424BAD00CDFFE9829310356284DFDCEB /* PBXTargetDependency */,
+				98809CAC77E8C88407DA39188E59E5E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-fibonacci";
+			productName = "Pods-fibonacci";
+			productReference = CF1DCB8BAABFB7E0E83409B5B26CA3DF /* libPods-fibonacci.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA114BE2D9D1BCDA6E1013C3301492A8 /* SipHash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F633396C389256F8850D996A26B1BB /* Build configuration list for PBXNativeTarget "SipHash" */;
+			buildPhases = (
+				66CE674D2E1AC70E92827237A011E09B /* Headers */,
+				11E5015995179759F0C316DF1D3E75E0 /* Sources */,
+				325A85FC0CD5BCF38ADE42EE7531C2A2 /* Frameworks */,
+				AC3A522E24D3A9502F059B0483E9FDB6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SipHash;
+			productName = SipHash;
+			productReference = 838232D05A6EF03E5EE0C7DFF0F9BA84 /* libSipHash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E95A7CDD815F373755F553D7E9772DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23A9C77578E46AEB069BEF36B9B5ADA6 /* BigInt */,
+				81D3FF1A887147C4D5AE7C409FEE8D05 /* Pods-fibonacci */,
+				EA114BE2D9D1BCDA6E1013C3301492A8 /* SipHash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3482DBFA9CE4039AA1605DA46D15EAB /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/BigInt/BigInt.modulemap",
+				"${PODS_ROOT}/Headers/Public/BigInt/BigInt-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/BigInt-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BigInt/BigInt.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BigInt/BigInt-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		AC3A522E24D3A9502F059B0483E9FDB6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SipHash/SipHash.modulemap",
+				"${PODS_ROOT}/Headers/Public/SipHash/SipHash-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SipHash-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SipHash/SipHash.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SipHash/SipHash-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E5015995179759F0C316DF1D3E75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6ED8ADD7B24315D4F8D18C227D3ACD /* Primitive Types.swift in Sources */,
+				04BAB9000ECA1DF9525E0A15D715B307 /* RandomUInt64.swift in Sources */,
+				AA30153EC052C2F6DC67B9E50E451A6C /* SipHash-dummy.m in Sources */,
+				9985C1DF20C3A844133CC24F260232A6 /* SipHashable.swift in Sources */,
+				DCD11459A6DD0C7757AD81AB42D7ADAC /* SipHasher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF635F69E783E2753E5BE75591AB3C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CA34613F574CE62FF542083B495BF /* Pods-fibonacci-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D6BCD5E5A99E5CAB3F3FBB1D6EC36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3990AC532A16D984A30B92171E19633 /* Addition.swift in Sources */,
+				CFCEF00E9F843C0E9885D25D3FE776AD /* BigInt-dummy.m in Sources */,
+				1393314FA30ED036A4876EED12EF15DF /* BigInt.swift in Sources */,
+				B9D179880E2C5A583513BF6086375292 /* BigUInt.swift in Sources */,
+				E98669BD82B8EF36AA49932E9A1C5559 /* Bitwise Ops.swift in Sources */,
+				70C753C56B4C246E2B038E4F94BF0BBF /* Codable.swift in Sources */,
+				37741FB620689069751B06889B7C7143 /* Comparable.swift in Sources */,
+				CAF7F95BAAA850711BA9ABB88C4DBE58 /* Data Conversion.swift in Sources */,
+				8606AA654F3D24B407E7274A9BB3995F /* Division.swift in Sources */,
+				2A8F6944A9B01C4D77F755677E3B50CD /* Exponentiation.swift in Sources */,
+				D42866E9D1CC9FAA8B4D290D9021ADED /* Floating Point Conversion.swift in Sources */,
+				6EBEEEDAACA227734E95EA5211665100 /* GCD.swift in Sources */,
+				718236F77969D41EA45AE28A7EF14E52 /* Hashable.swift in Sources */,
+				42911B8E04109940D27D03B76FDB71DA /* Integer Conversion.swift in Sources */,
+				CF3EE764A7A7F7F57EB8610C7E684B04 /* Multiplication.swift in Sources */,
+				F78C1DE8D506C812DCD441568DD25248 /* Prime Test.swift in Sources */,
+				A2282701DE9BC91494A2065F23824272 /* Random.swift in Sources */,
+				39CDE4B10C60D85F37F77C939C51E074 /* Shifts.swift in Sources */,
+				1EE14F44BE6D7C6D015982EBCB62366B /* Square Root.swift in Sources */,
+				2B4AEEF5291AF4C54375103E51B33EED /* Strideable.swift in Sources */,
+				1418FE8C38CFB0A63618CB505778FF1A /* String Conversion.swift in Sources */,
+				4CFF75EF09263579007C95CD2C296463 /* Subtraction.swift in Sources */,
+				0E595594925920B81CBDC1EF1F737727 /* Words and Bits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2602660D03EAE2BE41324DCD70D6B7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SipHash;
+			target = EA114BE2D9D1BCDA6E1013C3301492A8 /* SipHash */;
+			targetProxy = 36A8B274F50442AE2C466F7B8C8A2E09 /* PBXContainerItemProxy */;
+		};
+		424BAD00CDFFE9829310356284DFDCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 23A9C77578E46AEB069BEF36B9B5ADA6 /* BigInt */;
+			targetProxy = D47CE35B9621E3803D7B7A2069BD84BB /* PBXContainerItemProxy */;
+		};
+		98809CAC77E8C88407DA39188E59E5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SipHash;
+			target = EA114BE2D9D1BCDA6E1013C3301492A8 /* SipHash */;
+			targetProxy = D47C44BA2463006C8487D2CD82019A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ECE09070B568FAF3751330B2C4B76E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75874C51DED680E47E7BFA75E7B0E66C /* Pods-fibonacci.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-fibonacci/Pods-fibonacci.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		272C6B9580E5A9AF52BB2748EE1664E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01CCE7134E155FBD3EFFD01536F1056 /* Pods-fibonacci.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-fibonacci/Pods-fibonacci.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0D72F7A43AD4EFFDEF3588F45E0991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44EEF3042AB19CCB5C189647842EFA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C631303208BDF71DBDA20D9CE55622F /* BigInt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/BigInt/BigInt.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		77193E64EFB3283F858BF46796CFAC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D17CA529C0AE2E1C0AB8D0296FB3763 /* SipHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/SipHash/SipHash.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SipHash;
+				PRODUCT_NAME = SipHash;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AE478F99EF09D6A40B899C9817A2ECF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C631303208BDF71DBDA20D9CE55622F /* BigInt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/BigInt/BigInt.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C9FB373ADD169F331162507A3E5856D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EFE90EEAD03F178E398967D11B526D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D17CA529C0AE2E1C0AB8D0296FB3763 /* SipHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/SipHash/SipHash.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SipHash;
+				PRODUCT_NAME = SipHash;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086F8A3C201548AAE5089C4E64BD324C /* Build configuration list for PBXNativeTarget "Pods-fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272C6B9580E5A9AF52BB2748EE1664E9 /* Debug */,
+				1ECE09070B568FAF3751330B2C4B76E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D72F7A43AD4EFFDEF3588F45E0991 /* Debug */,
+				C9FB373ADD169F331162507A3E5856D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F0F5224D2CB877BA3BE60F8BC9AF96 /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EEF3042AB19CCB5C189647842EFA25 /* Debug */,
+				AE478F99EF09D6A40B899C9817A2ECF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F633396C389256F8850D996A26B1BB /* Build configuration list for PBXNativeTarget "SipHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77193E64EFB3283F858BF46796CFAC4D /* Debug */,
+				EFE90EEAD03F178E398967D11B526D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

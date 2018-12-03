@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import BigInt
 
 print("Fibonacci Calc.")
 
@@ -16,13 +17,13 @@ func input() -> String {
     return (NSString(data: inputData, encoding:String.Encoding.utf8.rawValue) as String?)!
 }
 
-var fib = [Int]()
+var fib = [BigInt]()
 var max = 2
 
 fib.append(0)
 fib.append(1)
 
-func fibonacci(n: Int) -> Int {
+func fibonacci(n: Int) -> BigInt {
     
     var i = max
     

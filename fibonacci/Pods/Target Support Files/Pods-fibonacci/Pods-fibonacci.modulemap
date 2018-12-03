@@ -1,0 +1,6 @@
+module Pods_fibonacci {
+  umbrella header "Pods-fibonacci-umbrella.h"
+
+  export *
+  module * { export * }
+}

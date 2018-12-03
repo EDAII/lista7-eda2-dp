@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA1D1F6F218F95D80008B453 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D1F6E218F95D80008B453 /* main.swift */; };
+		E138E3368C42F28FF55718B4 /* libPods-fibonacci.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9AAF637CA1753D27902110 /* libPods-fibonacci.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A9AAF637CA1753D27902110 /* libPods-fibonacci.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fibonacci.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403758178CD7D090E4AB193 /* Pods-fibonacci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fibonacci.release.xcconfig"; path = "Pods/Target Support Files/Pods-fibonacci/Pods-fibonacci.release.xcconfig"; sourceTree = "<group>"; };
+		BFBC00FA746B6D5F4027B1FB /* Pods-fibonacci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fibonacci.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fibonacci/Pods-fibonacci.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1D1F6B218F95D80008B453 /* fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fibonacci; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1D1F6E218F95D80008B453 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,17 +36,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E138E3368C42F28FF55718B4 /* libPods-fibonacci.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B99A3BBD478659597F2D231 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9AAF637CA1753D27902110 /* libPods-fibonacci.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA1D1F62218F95D80008B453 = {
 			isa = PBXGroup;
 			children = (
 				CA1D1F6D218F95D80008B453 /* fibonacci */,
 				CA1D1F6C218F95D80008B453 /* Products */,
+				DCC49EA9C151B0EE160C1359 /* Pods */,
+				2B99A3BBD478659597F2D231 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +77,15 @@
 			path = fibonacci;
 			sourceTree = "<group>";
 		};
+		DCC49EA9C151B0EE160C1359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC00FA746B6D5F4027B1FB /* Pods-fibonacci.debug.xcconfig */,
+				8403758178CD7D090E4AB193 /* Pods-fibonacci.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -69,6 +93,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA1D1F72218F95D80008B453 /* Build configuration list for PBXNativeTarget "fibonacci" */;
 			buildPhases = (
+				61502B8ACC85518D480E954A /* [CP] Check Pods Manifest.lock */,
 				CA1D1F67218F95D80008B453 /* Sources */,
 				CA1D1F68218F95D80008B453 /* Frameworks */,
 				CA1D1F69218F95D80008B453 /* CopyFiles */,
@@ -113,6 +138,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61502B8ACC85518D480E954A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fibonacci-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA1D1F67218F95D80008B453 /* Sources */ = {
@@ -241,6 +291,7 @@
 		};
 		CA1D1F73218F95D80008B453 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBC00FA746B6D5F4027B1FB /* Pods-fibonacci.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHM6B5Y356;
@@ -251,6 +302,7 @@
 		};
 		CA1D1F74218F95D80008B453 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8403758178CD7D090E4AB193 /* Pods-fibonacci.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHM6B5Y356;
